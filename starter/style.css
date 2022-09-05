@@ -1,29 +1,81 @@
-.firstdiv{
-    height: 460px;
-    /* border: 3px solid var(--black-color); */
+
+/***** major fixes *****/
+*{
+    margin: 0%;
+    padding: 0%;
+    /* fixes the firstsection-left div and firstsection-rightdiv sizes to be uniform  */
+    box-sizing: border-box;
+    }
+    body{
+        font-family: 'Inter', sans-serif;
+    }
+
+/***** major fixes *****/
+
+
+.firstsection{
+    height: 85vh;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
+/* **** .firstsection starts here *****/
 
-.first-leftdiv{
+.firstsection-leftdiv{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 50%;
     height: 100%;
     background: var(--gray-color);
 }
 
-.first-rightdiv{
+.firstsection-rightdiv{
     height: 100%;
     width: 50%;
-    /* background: url(./images/image1.jpg); */
-
     /* using background image with linear gradient */
-    background: linear-gradient(to right, rgba(244, 107, 69, 0.2), rgb(238, 168, 73, 0.2)), url(./images/image1.jpg);
-    background: ;
-
-    background-repeat: no-repeat;
-    background-position: centre;
+    background: linear-gradient(to right, rgba(244, 107, 69, 0.2), rgba(238, 73, 73, 0.2)), url(./images/image1.jpg);
+    background-position: bottom left;
     background-size: cover;
 
 }
+
+.link-holder{
+display: flex;
+justify-content: space-evenly;
+
+color: var(--whtie-color);
+padding: 20px 0;
+}
+.logo{
+    margin-bottom: 30px;
+}
+span{
+    color: var(--main-color);
+}
+.line{
+    background: var(--main-color);
+    padding: 8px;
+    width: 224px;
+}
+
+.heading-writeup{
+    margin: 30px 0;
+}
+/* **** .firstsection ends here *****/
+
+
+/* **** .secondsection ends here **** */
+/* **** .secondsection ends here **** */
+
+/* **** .thirdsection ends here **** */
+/* **** .thirdsection ends here **** */
+
+
+/* **** .footersection ends here **** */
+/* **** .footersection ends here **** */
+
+
+
+
+
+
