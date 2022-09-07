@@ -23,14 +23,13 @@
         padding-left: 30px;
     }
 
-    .link-holder{
+    .link-holder h4{
         margin-bottom: 10px;
     }
 
     .line{
         width: 200px;
     }
-}
 
 /* **** .firstsection ends here *****/
 
@@ -49,6 +48,7 @@
 .thirdsection{
     flex-direction: column-reverse;
     align-items: center;
+    background: var(--gray-color);
 }
 
 .thirdsection-rightdiv{
@@ -66,3 +66,4 @@ footer{
     margin-top: 10px;
 }
 /* **** .footersection ends here **** */
+}
