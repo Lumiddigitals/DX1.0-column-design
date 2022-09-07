@@ -75,7 +75,7 @@ span{
 /* **** .firstsection ends here *****/
 
 
-/* **** .secondsection ends here **** */
+/* **** .secondsection starts here **** */
 .secondsection{
     display: flex;
     justify-content: center;
@@ -105,14 +105,14 @@ span{
 
 /* **** .secondsection ends here **** */
 
-/* **** .thirdsection ends here **** */
+/* **** .thirdsection starts here **** */
 
 .thirdsection{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 30px 0;
-    /* align-items: center; */
+    background: var(--gray-color);
 }
 
 .thirdsection-leftdiv{
@@ -134,7 +134,7 @@ span{
 /* **** .thirdsection ends here **** */
 
 
-/* **** .footersection ends here **** */
+/* **** .footersection starts here **** */
 footer{
     color: var(--whtie-color);
     background: var(--main-color);

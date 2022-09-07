@@ -1,0 +1,68 @@
+
+@media screen and (max-width:800px){
+    
+
+    /* **** .firstsection starts here *****/
+    .firstsection {
+        height: 520px;
+    }
+    .firstsection-leftdiv{
+        width: 60%;
+        padding: 20px;
+    }
+    .firstsection-leftdiv h1{
+        font-size: 25px;
+    }
+    
+        .firstsection-rightdiv{
+        width: 40%;
+    }
+
+    .link-holder{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .link-holder{
+        margin-bottom: 10px;
+    }
+
+    .line{
+        width: 200px;
+    }
+}
+
+/* **** .firstsection ends here *****/
+
+/* **** .secondsection starts here **** */
+
+.secondsection{
+    flex-direction: column;
+}
+.secondsection-rightdiv{
+    margin-left: 0;
+    margin-top: 30px;
+}
+/* **** .secondsection ends here **** */
+
+/* **** .thirdsection starts here **** */
+.thirdsection{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.thirdsection-rightdiv{
+    margin-bottom: 30px;
+    /* or thirdsection margin-top: 30px; */
+}
+
+/* **** .footersection starts here **** */
+footer{
+    flex-direction: column;
+    text-align: center;
+}
+
+.footericons{
+    margin-top: 10px;
+}
+/* **** .footersection ends here **** */
