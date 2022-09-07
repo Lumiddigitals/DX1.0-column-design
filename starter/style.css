@@ -61,12 +61,14 @@ padding: 20px 0;
 span{
     color: var(--main-color);
 }
+/* use padding instaed of height */
 .line{
     background: var(--main-color);
     padding: 8px;
     width: 224px;
 }
 
+/* 30px is for top and bottom while 0 is for left and right */
 .heading-writeup{
     margin: 30px 0;
 }
@@ -133,6 +135,24 @@ span{
 
 
 /* **** .footersection ends here **** */
+footer{
+    color: var(--whtie-color);
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.footericons-container{
+    width: 200px;
+    text-align: center;
+}
+
+.footericons{
+    font-size: 25px;
+    margin: 0 5px;
+}
+
 /* **** .footersection ends here **** */
 
 
